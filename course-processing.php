@@ -1,6 +1,6 @@
 <?php
 include("config.php");
-
+"";
 $dep = mysqli_query($con , "SELECT * FROM department");
 
 $results = mysqli_fetch_assoc($dep);
